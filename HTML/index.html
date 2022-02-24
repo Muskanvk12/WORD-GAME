@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bodyWrapper">
+        <header>
+            <div class="headerLogo">
+                <p>Word Game</p>
+            </div>
+        </header>
+        <main>
+            <section class="mainSection" id="sectionOne">
+                <!-- section header -->
+                <div class="sectionHeader">
+                    <div class="sectionHeading">
+                        <p>Correct</p>
+                        <p id="correct">0</p>
+
+                    </div>
+                </div>
+                <!-- section main -->
+                <div class="sectionMain" id="correctSection">
+                    <span class="word"> Homework</span>
+                </div>
+            </section>
+
+            <section class="mainSection" id="sectionTwo">
+                <!-- section header -->
+                <div class="sectionHeader">
+                    <div class="sectionHeading">
+                        <p>New Words</p>
+                    </div>
+                </div>
+                <!-- section main -->
+                <div class="sectionMain sectionTwo">
+                    <span class="word" id="newWord"></span>
+                </div>
+            </section>
+
+            <section class="mainSection" id="sectionThree">
+                <!-- section header -->
+                <div class="sectionHeader">
+                    <div class="sectionHeading">
+                        <p>Wrong</p>
+                        <p id="wrong">0</p>
+                    </div>
+                </div>
+                <!-- section main -->
+                <div class="sectionMain"  id="WrongSection">
+                    <span class="word">
+                        YouTube
+                    </span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="menu">
+                <div class="menuWrapper">
+                    <input id="wordInput" type="text" placeholder="Type The Word" onchange="check()">
+                </div>
+            </div>
+            <div class="devInfo">
+                Muskan
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="/JS/index.js"></script>
+</html>
