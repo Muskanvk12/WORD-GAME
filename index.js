@@ -3,6 +3,7 @@ document.getElementById("wordInput").value = "";
 let correct = document.getElementById("correctSection");
 let wrong = document.getElementById("WrongSection");
 let words = ["Laptop", "Hello", "Website", "Hero", "Free", "Google"];
+let colors = ["#f1bfff", "#b8b5ff", "#fe7e6d", "#fed1ef", "#ddeef2"]
 let newWord = "";
 let correctCount = 0;
 let wrongCount = 0;
@@ -15,10 +16,13 @@ function getWord() {
     document.getElementById('newWord').style.top = "0px";
     let word = words[Math.floor(Math.random() * words.length)];
     newWord = document.getElementById("newWord").innerText = word;
+
+    let color = colors[Math.floor(Math.random() * colors.length)];
+    newcolor = document.getElementById("newWord").style.backgroundColor = color;
     let topCount = 0;
     animateMe();
     function animateMe() {
-        if (topCount == 370) {
+        if (topCount == 375) {
             return;
         }
         const element = document.getElementById('newWord');
