@@ -65,9 +65,10 @@ footer {
   flex-direction: column;
   padding: 10px;
   border-radius: 10px;
-  background-color: #d8faff15;
-  backdrop-filter: blur(30px);
-  border-left: 1.5px solid #4f4e6ee3;
+  background-color: #d8faff13;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border-left: 1.5px solid #5e5d7ae3;
   border-right: 1.5px solid #4f4e6ee3;
   z-index: 5;
 }
