@@ -2,7 +2,7 @@
 document.getElementById("wordInput").value = "";
 let correct = document.getElementById("correctSection");
 let wrong = document.getElementById("WrongSection");
-let words = ["Laptop", "Hello", "Website", "Hero", "Free", "Google"];
+let words = ["Laptop", "Hello", "Website", "Hero", "Free", "Google", "essay", "analytic", "interpretative", "critical", "literary", "composition", "usually", "shorter", "systematic", "formal", "dissertation", "thesis", "subject", "limited", "personal"];
 let colors = ["#f1bfff", "#b8b5ff", "#fe7e6d", "#fed1ef", "#ddeef2"]
 let newWord = "";
 let correctCount = 0;

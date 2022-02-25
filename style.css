@@ -189,7 +189,7 @@ footer {
 
 /* Animation */
 
-.box{
+.box {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -200,49 +200,55 @@ footer {
   z-index: 0;
 }
 
-.box-1{
+.box-1 {
   right: 10vw;
-  animation-duration: 10s;
+  animation-duration: 18s;
   animation-delay: 2s;
-  
 }
-.box-2{
+.box-2 {
   right: 20vw;
-  animation-duration: 19s; 
+  animation-duration: 14s;
 }
-.box-3{
+.box-3 {
   width: 70px;
   height: 70px;
   right: 40vw;
-  animation-duration: 12s; 
+  animation-duration: 12s;
   animation-delay: 10s;
-
 }
-.box-4{
+.box-4 {
   width: 80px;
   height: 80px;
   right: 30vw;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-delay: 10s;
   animation-delay: 7s;
 }
-.box-5{
+.box-5 {
   right: 55vw;
-  animation-duration: 16s; 
+  animation-duration: 16s;
   animation-delay: 15s;
- 
 }
-.box-6{
+.box-6 {
   right: 75vw;
-  animation-duration: 20s; 
-  animation-delay: 4s;
- 
+  animation-duration: 10s;
+  animation-delay: 1s;
 }
-.box-7{
+.box-7 {
   right: 90vw;
-  animation-duration: 10s;  
+  animation-duration: 17s;
+  animation-delay: 5s;
+
 }
-@keyframes falling{
-  0%{top: -10vh;}
-  100%{top: 93vh;}
+@keyframes falling {
+  0% {
+    top: -10vh;
+    transform: translate(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    top: 93vh;
+    transform: translateY(100px) rotate(120deg);
+    opacity: 0.6;
+  }
 }
