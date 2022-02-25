@@ -211,17 +211,20 @@ footer {
   animation-duration: 19s; 
 }
 .box-3{
+  width: 70px;
+  height: 70px;
   right: 40vw;
   animation-duration: 12s; 
   animation-delay: 10s;
 
 }
 .box-4{
+  width: 80px;
+  height: 80px;
   right: 30vw;
   animation-duration: 20s;
   animation-delay: 10s;
   animation-delay: 7s;
-
 }
 .box-5{
   right: 55vw;
