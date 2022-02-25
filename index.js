@@ -22,7 +22,7 @@ function getWord() {
     let topCount = 0;
     animateMe();
     function animateMe() {
-        if (topCount == 375) {
+        if (topCount == 364) {
             return;
         }
         const element = document.getElementById('newWord');
