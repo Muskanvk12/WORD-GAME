@@ -158,10 +158,10 @@ footer {
 }
 
 #wordInput {
-  height: 65px;
+  height: 60px;
   width: 30%;
   padding: 30px;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 20px;
   font-weight: 200;
   border: none;
@@ -172,10 +172,45 @@ footer {
 
 .devInfo {
   height: 40%;
+  margin-top: -8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #d8faff;
   z-index: 5;
   /* background-color: #0f093f; */
 }
 
+.devInfoHeader{
+  display: flex;
+}
+
+.devInfoHeading{
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+.devInfoName{
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.socialLinks{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.myLink{
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.myLink img{
+  height: 30px;
+  width: 30px;
+}
 /* .Status {
   height: 30px;
   width: 8%;

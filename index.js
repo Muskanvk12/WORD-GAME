@@ -19,6 +19,7 @@ function getWord() {
 
     let color = colors[Math.floor(Math.random() * colors.length)];
     newcolor = document.getElementById("newWord").style.backgroundColor = color;
+    
     let topCount = 0;
     animateMe();
     function animateMe() {
