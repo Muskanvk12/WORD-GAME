@@ -162,7 +162,7 @@ footer {
   width: 30%;
   padding: 30px;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   border: none;
   border-radius: 40px;
@@ -205,11 +205,32 @@ footer {
 .myLink{
   margin: 0px 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .myLink img{
   height: 30px;
   width: 30px;
+}
+
+.detailAboutLink{
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  font-size: 12px;
+  display: none;
+}
+
+#linkedIn:hover #detailAboutLinkLL{
+  display: flex;
+}
+
+#github:hover #detailAboutLinkGG{
+  display: flex;
+}
+
+#projects:hover #detailAboutLinkP{
+  display: flex;
 }
 /* .Status {
   height: 30px;
@@ -253,7 +274,7 @@ footer {
 }
 .box-4 {
   width: 80px;
-  height: 80px;
+  height: 60px;
   right: 30vw;
   animation-duration: 10s;
   animation-delay: 10s;
@@ -282,8 +303,8 @@ footer {
     opacity: 1;
   }
   100% {
-    top: 93vh;
+    top: 75vh;
     transform: translateY(100px) rotate(120deg);
-    opacity: 0.6;
+    opacity: 0.8;
   }
 }
